@@ -1,0 +1,202 @@
+[
+    {
+        "id": "ND001",
+        "matkhau": "123456789",
+        "ten": "Nguyễn Văn A",
+        "chucvu": "1",
+        "sdt": "0939392931",
+        "cmnd": "301748222",
+        "diachi": "27 Hàm Tử, Tân Bình, Hà Nội",
+        "sodu": 1000000,
+        "lichsu": [
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Internet",
+                "tendn": "Công ty TNHH Huy Hữu",
+                "tenkh": "Nguyễn Văn A",
+                "idhd": "HD007",
+                "sotien": 100000
+            },
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Wifi",
+                "tendn": "Công ty TNHH Huy Hữu",
+                "tenkh": "Nguyễn Văn A",
+                "idhd": "HD007",
+                "sotien": 100000
+            }
+        ],
+        "dvsns": [
+            {
+                "dichvu": {
+                    "id": "DV001",
+                    "ten": "Nước",
+                    "doanhnghiep": {
+                        "id": "DN001",
+                        "ten": "Công ty TNHH Hai Bà Trưng",
+                        "khachhang": {
+                            "id": "KH001",
+                            "ten": "Nguyễn Văn Đạt"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "ND002",
+        "ten": "Trần Thị B",
+        "matkhau": "123456789",
+        "chucvu": "1",
+        "sdt": "0939392932",
+        "cmnd": "301748223",
+        "diachi": "27 Hàm Tử, Tân Bình, TP.HCM",
+        "sodu": 1000000,
+        "lichsu": [
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Nước",
+                "tendn": "Công ty TNHH Hai Bà Trưng",
+                "tenkh": "Nguyễn Văn Đạt",
+                "idhd": "HD007",
+                "sotien": 100000
+            },
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Điện",
+                "tendn": "Công ty TNHH Hai Bà Trưng",
+                "tenkh": "Nguyễn Văn Đạt",
+                "idhd": "HD007",
+                "sotien": 100000
+            }
+        ],
+        "dvsns": [
+            {
+                "dichvu": {
+                    "id": "DV002",
+                    "ten": "Điện",
+                    "doanhnghiep": {
+                        "id": "DN001",
+                        "ten": "Công ty TNHH Hai Bà Trưng",
+                        "khachhang": {
+                            "id": "KH002",
+                            "ten": "Trần Thị Đẹt"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "ND003",
+        "ten": "Vũ Văn C",
+        "matkhau": "123456789",
+        "chucvu": "1",
+        "sdt": "0939392933",
+        "cmnd": "301748224",
+        "diachi": "33 Nguyễn Thái Sơn, Gò Vấp, TP.HCM",
+        "sodu": 1000000,
+        "lichsu": [
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Nước",
+                "tendn": "Công ty TNHH Bến Nghé",
+                "tenkh": "Trần Thị Đẹt",
+                "idhd": "HD007",
+                "sotien": 100000
+            },
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Điện",
+                "tendn": "Công ty TNHH Bến Nghé",
+                "tenkh": "Trần Thị Đẹt",
+                "idhd": "HD007",
+                "sotien": 100000
+            }
+        ]
+    },
+    {
+        "id": "ND004",
+        "ten": "Mạc Văn Khoa",
+        "matkhau": "123456789",
+        "chucvu": "1",
+        "sdt": "0939392934",
+        "cmnd": "301748225",
+        "diachi": "43 3 Tháng 2, Quận 5, TP.HCM",
+        "sodu": 1000000,
+        "lichsu": [
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Nước",
+                "tendn": "Công ty TNHH Huy Hữu",
+                "tenkh": "Nguyễn Văn A",
+                "idhd": "HD007",
+                "sotien": 100000
+            },
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Điện",
+                "tendn": "Công ty TNHH Huy Hữu",
+                "tenkh": "Nguyễn Văn A",
+                "idhd": "HD007",
+                "sotien": 100000
+            }
+        ]
+    },
+    {
+        "id": "ND005",
+        "ten": "Lê Hưu D",
+        "matkhau": "123456789",
+        "chucvu": "1",
+        "sdt": "0939392935",
+        "cmnd": "301748226",
+        "diachi": "27 Trần Duy Hưng, Hàng Bún, Hà Nội",
+        "sodu": 1000000,
+        "lichsu": [
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Internet",
+                "tendn": "Công ty TNHH Hai Bà Trưng",
+                "tenkh": "Nguyễn Văn A",
+                "idhd": "HD001",
+                "sotien": 100000
+            },
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Wifi",
+                "tendn": "Công ty TNHH Hai Bà Trưng",
+                "tenkh": "Nguyễn Văn A",
+                "idhd": "HD001",
+                "sotien": 100000
+            }
+        ]
+    },
+    {
+        "id": "ND006",
+        "ten": "Trần Thị Đẹt",
+        "matkhau": "123456789",
+        "chucvu": "1",
+        "sdt": "0939392936",
+        "cmnd": "301748227",
+        "diachi": "27 Lý Thái Tổ, Hàng Gai, Hà Nội",
+        "sodu": 1000000,
+        "lichsu": [
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Internet",
+                "tendn": "Công ty TNHH Hai Bà Trưng",
+                "tenkh": "Trần Thị Đẹt",
+                "idhd": "HD004",
+                "sotien": 100000
+            },
+            {
+                "ngaylap": "21/10/2019",
+                "tendv": "Wifi",
+                "tendn": "Công ty TNHH Hai Bà Trưng",
+                "tenkh": "Trần Thị Đẹt",
+                "idhd": "HD004",
+                "sotien": 100000
+            }
+        ]
+    }
+]

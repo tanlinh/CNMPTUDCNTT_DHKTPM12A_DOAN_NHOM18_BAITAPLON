@@ -1,0 +1,3 @@
+modal xử lý thao tác với database
+router là các controller
+view là các giao diện

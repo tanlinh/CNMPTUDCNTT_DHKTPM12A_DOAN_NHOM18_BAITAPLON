@@ -1,0 +1,3961 @@
+[
+    {
+        "id": "CTDV005",
+        "ngayDK": "20/10/2019",
+        "iddv": "DV001",
+        "iddn": "DN005",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 0
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV006",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV001",
+    "iddn": "DN006",
+    "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV004",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV001",
+        "iddn": "DN004",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV003",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV001",
+        "iddn": "DN003",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV002",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV001",
+        "iddn": "DN002",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV001",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV001",
+    "iddn": "DN001",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV007",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV002",
+    "iddn": "DN005",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV008",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV002",
+    "iddn": "DN006",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV009",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV002",
+    "iddn": "DN004",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0010",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV002",
+    "iddn": "DN003",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0011",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV002",
+    "iddn": "DN002",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0012",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV002",
+    "iddn": "DN001",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0013",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV003",
+    "iddn": "DN005",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0014",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV003",
+    "iddn": "DN006",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0015",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV003",
+    "iddn": "DN004",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0016",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV003",
+    "iddn": "DN003",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0017",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV003",
+    "iddn": "DN002",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0018",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV003",
+    "iddn": "DN001",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0019",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV004",
+    "iddn": "DN005",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0020",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV004",
+    "iddn": "DN006",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0021",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV004",
+    "iddn": "DN004",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0022",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV004",
+    "iddn": "DN003",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0023",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV004",
+    "iddn": "DN002",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+,
+{
+    "id": "CTDV0024",
+    "ngayDK": "20/10/2019",
+    "iddv": "DV004",
+    "iddn": "DN001",
+        "khachhang": [
+            {
+                "id": "KH001",
+                "ten": "Nguyễn Văn Đạt",
+                "email": "nguyenvandat@gmail.com",
+                "sdt": "0324444444",
+                "hoadon": [
+                    {
+                        "id": "HD001",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD002",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD003",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH002",
+                "ten": "Trần Thị Đẹt",
+                "email": "tranthidet@gmail.com",
+                "sdt": "0324444445",
+                "hoadon": [
+                    {
+                        "id": "HD004",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD005",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD006",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH003",
+                "ten": "Nguyễn Văn A",
+                "email": "nguyenvana@gmail.com",
+                "sdt": "0324444446",
+                "hoadon": [
+                    {
+                        "id": "HD007",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD008",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD009",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH004",
+                "ten": "Ngô Thị B",
+                "email": "ngothib@gmail.com",
+                "sdt": "0324444447",
+                "hoadon": [
+                    {
+                        "id": "HD0010",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0011",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0012",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH005",
+                "ten": "Nguyễn Văn Tuấn",
+                "email": "nguyenvantuan@gmail.com",
+                "sdt": "0324444448",
+                "hoadon": [
+                    {
+                        "id": "HD0013",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0014",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0015",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            },
+            {
+                "id": "KH006",
+                "ten": "Lê Thị Nở",
+                "email": "lethino@gmail.com",
+                "sdt": "0324444440",
+                "hoadon": [
+                    {
+                        "id": "HD0016",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0017",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    },
+                    {
+                        "id": "HD0018",
+                        "sotien": 100000,
+                        "ngaylap": "20/10/2019",
+                        "trangthai": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

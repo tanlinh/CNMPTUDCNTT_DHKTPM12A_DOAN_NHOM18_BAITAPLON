@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chỉnh sửa thông tin doanh nghiệp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <form action="/updatedoanhnghiep" method="POST">
+    <h1><span style="color: blue;">Chỉnh sửa thông tin doanh nghiệp</span><span style="color: chocolate;"> <label for="email"><input type="hidden" name="iddn" value="<%=iddn%>"><%=iddn%></label></span></h1>
+    <input type="hidden" class="form-control" required id="pwd" placeholder="Số điện thoại" name="ten" value="<%=ten%>">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="text" class="form-control" required pattern="[A-Za-z]\w*@gmail.com$" title="Email phải có dạng a@gmail.com" id="email" placeholder="Email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Số điện thoại</label>
+      <input type="text" class="form-control" required pattern="^[0]\d{9}$" title="Bắt đầu là 0 và gồm 10 số " id="pwd" placeholder="Số điện thoại" name="sdt">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Số Fax</label>
+        <input type="text" class="form-control" required id="pwd" placeholder="Số fax" name="fax">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Địa chỉ</label>
+        <input type="text" class="form-control" required id="pwd" placeholder="Địa chỉ" name="diachi">
+      </div>
+    <button type="submit" class="btn btn-primary" >Update</button>
+  </form>
+</div>
+
+</body>
+</html>

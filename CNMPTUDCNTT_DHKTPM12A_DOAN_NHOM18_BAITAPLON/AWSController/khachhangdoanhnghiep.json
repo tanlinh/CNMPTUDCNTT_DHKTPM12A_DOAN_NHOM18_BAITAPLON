@@ -1,0 +1,73 @@
+[
+    {
+        "id":"DN001",
+        "matkhau":"123456789",
+        "ten":"Công ty TNHH Hai Bà Trưng",
+        "chucvu":"0",
+        "sdt":"0939392931",
+        "fax":"301748222",
+        "email":"haibatrung@gmail.com",
+        "diachi":"27 Hàm Tử, Tân Bình, Hà Nội"
+          
+    },
+    {
+        "id": "DN002",
+        "ten": "Công ty TNHH Bến Nghé",
+        "matkhau": "123456789",
+        "chucvu": "0",
+        "sdt": "0939392932",
+        "fax": "301748223",
+        "email": "bennghe@gmail.com",
+        "diachi": "27 Hàm Tử, Tân Bình, TP.HCM"
+    },
+    {
+        "id":"DN003",
+        "ten":"Công ty TNHH Huy Hữu",
+        "matkhau":"123456789",
+        "chucvu":"0",
+        "sdt":"0939392933",
+        "fax":"301748224",
+        "email":"huyhuu@gmail.com",
+        "diachi":"33 Nguyễn Thái Sơn, Gò Vấp, TP.HCM"
+         
+    },
+    {
+        "id":"DN004",
+        "ten":"Công ty TNHH Nguyễn Thái",
+        "matkhau":"123456789",
+        "chucvu":"0",
+        "sdt":"0939392934",
+        "fax":"301748225",
+        "email":"nguyenthai@gmail.com",
+        "diachi":"43 3 Tháng 2, Quận 5, TP.HCM"
+         
+    },
+    {
+        "id":"DN005",
+        "ten":"Công ty Điện lực TP.HCM",
+        "matkhau":"123456789",
+        "chucvu":"0",
+        "sdt":"0939392935",
+        "fax":"301748226",
+        "email":"dienluc@gmail.com",
+        "diachi":"27 Trần Duy Hưng, Hàng Bún, Hà Nội"
+           
+    },
+    {
+        "id":"DN006",
+        "ten":"Công ty TNHH Nguyễn Du",
+        "matkhau":"123456789",
+        "chucvu":"0",
+        "sdt":"0939392936",
+        "fax":"301748227",
+        "email":"nguyendu@gmail.com",
+        "diachi":"27 Lý Thái Tổ, Hàng Gai, Hà Nội"
+        
+        
+    }  
+   
+
+    
+    
+    
+]

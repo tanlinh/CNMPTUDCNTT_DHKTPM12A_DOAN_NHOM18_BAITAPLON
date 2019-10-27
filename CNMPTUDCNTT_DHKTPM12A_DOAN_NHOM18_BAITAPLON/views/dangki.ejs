@@ -1,50 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Đăng kí tài khoản khách hàng</title>
-    <link rel="shortcut icon" type="image/png" href="images/icontitle.jpg"/>
+    <link rel="shortcut icon" type="image/png" href="images/icontitle.jpg" />
     <!-- Font Icon -->
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
     <!-- Main css -->
     <link rel="stylesheet" href="css/style1.css">
 </head>
+
 <body>
 
     <div class="main">
 
         <section class="signup">
             <!-- <img src="images/signup-bg.jpg" alt=""> -->
-            <div class="container">
+            <div class="container"> 
+                
                 <div class="signup-content">
-                    <form method="POST" id="signup-form" class="signup-form">
+                    <form method="POST" id="signup-form" class="signup-form" action="/dangki"> 
                         <h2 class="form-title">Đăng kí tài khoản</h2>
+                        <% if (DkiErr == "1") { %>
+
+                            <h3><span style="color: red;">Tên tài khoản đăng kí đã tồn tại</span></h3>     
+
+                            <% }if(DkiErr == "0"){  %>
+                                <h3><span style="color:aquamarine;">Đăng kí thành công</span></h3>     
+                            <% }  %>
+                        
                         <div class="form-group">
-                            <input type="email" class="form-input" name="email" id="email" placeholder="Nhập tên khách hàng"/>
+                            <input type="text" required class="form-input" name="id" id="re_password"
+                                placeholder="Nhập tên tài khoản" />
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="email" id="email" placeholder="Nhập số điện thoại"/>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-input" name="re_password" id="re_password" placeholder="Địa chỉ"/>
-                        </div>
-                        <div class="form-group">
-                                <input type="text" class="form-input" name="re_password" id="re_password" placeholder="Nhập Username"/>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-input" name="password" id="password" placeholder="Nhập password"/>
+                            <input type="password" required pattern="(?=.*\d)(?=.*[a-z]).{7,}" title="Mật khẩu ít nhất là 7 kí tự và phải chứa ký tự số" class="form-input" name="matkhau" id="password"
+                                placeholder="Nhập password" />
                             <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
                         </div>
                         <div class="form-group">
-                            <input type="submit" name="submit" id="submit" class="form-submit" value="Đăng kí"/>
-                            
+                            <input type="text" required pattern="*(\s[A-Z][a-z])$" title="Họ tên phải là chữ" class="form-input" name="ten" id="email"
+                                placeholder="Nhập tên khách hàng" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" required pattern="^[0]\d{9}$" title="Bắt đầu là 0 và gồm 10 số " class="form-input" name="sdt" id="email"
+                                placeholder="Nhập số điện thoại"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" required="true" pattern="\d{9,11}" title="từ 9 đến 11 số" class="form-input" name="cmnd" id="re_password"
+                                placeholder="Nhập CMND" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" required="true" class="form-input" name="diachi" id="re_password"
+                                placeholder="Nhập Địa chỉ" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Đăng kí" />
+
                         </div>
                     </form>
                     <p class="loginhere">
-                        Bạn đã có tài khoản? <a href="../dangnhap" class="loginhere-link">Đăng nhập tại đây</a>   Hoặc hủy? <a href="/" class="loginhere-link">Thoát</a>
+                        Bạn đã có tài khoản? <a href="../dangnhap" class="loginhere-link">Đăng nhập tại đây</a>
+                        Hoặc <a href="/" class="loginhere-link">Quay lại trang chủ</a>
                     </p>
                 </div>
             </div>
@@ -56,4 +77,5 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
 </html>

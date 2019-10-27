@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Đăng kí tài khoản doanh nghiệp</title>
 
-    <link rel="shortcut icon" type="image/png" href="images/icontitle.jpg"/>
+    <link rel="shortcut icon" type="image/png" href="images/icontitle.jpg" />
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
 
@@ -33,94 +33,75 @@
 
 <body>
 
+
+
     <div class="main">
 
         <section class="signup">
             <!-- <img src="images/signup-bg.jpg" alt=""> -->
             <div class="container">
                 <div class="signup-content">
-                    <form method="POST" id="signup-form" class="signup-form">
+                    <form method="POST" id="signup-form" class="signup-form" action="/dangkidoanhnghiep">
                         <h2 class="form-title">Đăng kí tài khoản doanh nghiệp</h2>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="email" id="email"
-                                placeholder="Nhập tên doanh nghiệp" />
+                            <input type="text" class="form-input" name="ten1"  id="email"
+                              required  placeholder="Nhập tên doanh nghiệp" />
                         </div>
                         <div class="form-group">
-                            <label>Chọn các dịch vụ</label>
-                            <table class="table table-striped">
-                                <tr>
-                                    <th>Mã dịch vụ</th>
-                                    <th>Tên dịch vụ</th>
-                                    <th>Thao tác</th>
-                                </tr>
-                                <tr>
-                                    <Td>001</Td>
-                                    <Td>Tiền điện</Td>
-                                    <td><a href="#" class="loginhere-link">Xóa</a></td>
-                                </tr>
-                                <tr>
-                                    <Td>002</Td>
-                                    <Td>Tiền Nước</Td>
-                                    <td><a href="#" class="loginhere-link">Xóa</a></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalCart">Thêm dịch vụ</button>
-                                        <div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog" role="document">
-                                                <div class="modal-content">
-                                                    <!--Header-->
-                                                    <div class="modal-header">
-                                                            <h4 class="modal-title" id="myModalLabel">Thêm dịch vụ</h4>
-                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                              <span aria-hidden="true">×</span>
-                                                            </button>
-                                                    </div>
-
-                                                    <div class="modal-body">
-                                                            <div class="form-group">
-                                                                    <input type="text" class="form-input" name="name" id="name" placeholder="Nhập mã dịch vụ" />
-                                                            </div>
-                                                            <div class="form-group">
-                                                                    <input type="text" class="form-input" name="name" id="name" placeholder="Nhập tên dịch vụ" />
-                                                            </div>
-                                                           
-                                                            <a href="#" class="btn btn-primary">Thêm</a>
-                                                        </div>
-                                                </div>
-                                            </div>
-                                        </div>                
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-input" placeholder="Nhập địa chỉ" />
+                            <input type="text"  required="true"  required  class="form-input" placeholder="Nhập địa chỉ" name="diachi1" />
 
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" placeholder="Nhập Email" />
+                            <input type="text" class="form-input"  required  placeholder="Nhập Email" pattern="[A-Za-z]\w*@gmail.com$" title="Email phải có dạng a@gmail.com" name="email1" />
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-input" name="re_password" id="re_password"
+                            <input type="text" class="form-input"  required pattern="^[0]\d{9}$" title="Bắt đầu là 0 và gồm 10 số " name="sdt1" id="re_password"
                                 placeholder="Nhập số điện thoại" />
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="re_password" id="re_password"
+                            <input type="text" class="form-input"  required  name="fax1" id="re_password"
                                 placeholder="Nhập số Fax" />
                         </div>
                         <div class="form-group">
-                                <input type="text" class="form-input" name="re_password" id="re_password"
-                                    placeholder="Nhập Username" />
-                            </div>
-                            <div class="form-group">
-                                    <input type="password" class="form-input" name="re_password" id="re_password"
-                                        placeholder="Nhập Password" />
-                                </div>
+                            <input type="text" class="form-input"  required name="id1" id="re_password"
+                                placeholder="Nhập Username" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-input"  required pattern="(?=.*\d)(?=.*[a-z]).{7,}" title="Mật khẩu ít nhất là 7 kí tự và phải chứa ký tự số"  name="matkhau1" id="re_password"
+                                placeholder="Nhập Password" />
+
+                        </div>
+                        <div class="form-group">
+                            <label style="color: blue;">Chọn các dịch vụ</label>
+                            <table class="table">
+                                <tr>
+                                    <th>Mã dịch vụ</th>
+                                    <th>Tên dịch vụ</th>
+                                    <th>Lựa chọn</th>
+                                </tr>
+                                <% listdichvu.forEach((dichvu)=>{ %>
+                          
+                                <tr>
+                                  
+                                    <td><%=dichvu.id%></td>
+                                    <td><%=dichvu.ten%></td>
+                                     <td>
+                                        <input type="checkbox"  required  name="listdichvu" value="<%=dichvu.id%>"  class="form-check-input"><br>                                        
+                                    </td>
+                                   
+                                </tr>
+                                              
+                                <% })%>
+        
+
+                            </table>
+
+                        </div>
                         <div class="form-group">
                             <input type="submit" name="submit" id="submit" class="form-submit" value="Đăng kí" />
                         </div>
+
                     </form>
                     <p class="loginhere">
                         Bạn đã có tài khoản? <a href="../dangnhap" class="loginhere-link">Đăng nhập tại đây</a>
@@ -149,7 +130,8 @@
     <script src="js/aos.js"></script>
     <script src="js/jquery.animateNumber.min.js"></script>
     <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
 

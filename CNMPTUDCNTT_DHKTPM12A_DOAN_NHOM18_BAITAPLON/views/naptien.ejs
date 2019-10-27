@@ -38,19 +38,13 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container-fluid px-md-4	">
-	      <a class="navbar-brand" href="/">Trang chủ</a>
+	      <a class="navbar-brand" href="#">Trang chủ</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="#" class="nav-link">Giới thiệu</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Khuyến mãi</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Dịch vụ</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Trợ giúp</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Liên hệ</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Tên khách hàng</a></li>
             <li class="nav-item"><a href="../" class="btn btn-danger">Đăng xuất</a></li>
 
 	        </ul>
@@ -79,18 +73,15 @@
               data-toggle="collapse" aria-selected="true">Thanh toán</a>
             
             <ul class="collapse list-unstyled" id="homeSubmenu">
-              <li>
-                  <a href="#" class="btn btn-primary">Tiền điện</a>
-              </li>
-              <li>
-                  <a href="#" class="btn btn-primary">Tiền nước</a>
-              </li>
-              <li>
-                  <a href="#" class="btn btn-primary">Tiền Internet</a>
-              </li>
-              <li>
-                  <a href="#" class="btn btn-primary">Truyền hình</a>
-              </li>
+              <%dichvu.forEach((dv)=>{ %>
+                <li>
+                  <!-- /<a class="btn btn-primary" data-toggle="collapse" href="/dichvu?id=<%=dv.id%>"><%=dv.ten%></a> -->
+                  <form action="/dichvu?id=<%=dv.id%>&idnd=<%=id%>&ten=<%=ten%>" method="POST">
+                    <!-- <input type="hidden" name="id" value="<%=dv.id%>"> -->
+                    <td><button style="width: 150px;height:50px" class="btn btn-info" type="submit"><%=dv.ten%></button></td>
+                  </form>
+                  </li>
+                  <%  })  %>
           </ul>
             <a class="nav-link px-6 active" id="v-pills-buffet-tab" data-toggle="pill" href="#v-pills-buffet" role="tab" aria-controls="v-pills-buffet" aria-selected="false">Nạp tiền</a>
 
@@ -110,15 +101,14 @@
             <div class="tab-pane fade show active py-5" id="v-pills-buffet" role="tabpanel" aria-labelledby="v-pills-buffet-tab">
               <span class="icon mb-3 d-block flaticon-neurology"></span>
               <h2 class="mb-4" style="text-align: center">Nạp tiền</h2>
-              <form>
+              <form action="/savenaptien" method="GET">
+                <td><input type="hidden" name="id" value="<%=id%>" style="width:300px; height: 30px"></td>
+                      <td><input type="hidden" name="ten" value="<%=ten%>" style="width:300px; height: 30px"></td>
                 <table border="0" class="table table-borderless">
                   <tr>
+            
                     <td>Nhập số tiền muốn nạp: </td>
-                    <td><input type="text" style="width:300px; height: 30px"></td>
-                  </tr>
-                  <tr>
-                    <td>Thẻ ngân hàng liên kết :</td>
-                    <td><input type="text"  style="width:300px; height: 30px"></td>
+                    <td><input type="number" min="10000" max="100000000" name="sotien" style="width:300px; height: 30px"></td>
                   </tr>
                   <tr>
                     <td></td>
@@ -135,34 +125,27 @@
                 <table class="table">
                         <thead class="thead-dark">
                           <tr>
-                            <th scope="col">STT</th>
-                            <th scope="col">Loại giao dịch</th>
-                            <th scope="col">Số tiền</th>
+                            <th scope="col">Mã hóa đơn đã thanh toán</th>
+                            <th scope="col">Tên dịch vụ</th>
+                            <th scope="col">Tên doanh nghiệp</th>
                             <th scope="col">Ngày thanh toán</th>
-                            <th scope="col">Nhà cung cấp</th>
-                            <th scope="col">Mã khách hàng</th>
+                            <th scope="col">Tên khách hàng</th>
+                            <th scope="col">Số tiền</th>
                           </tr>
                         </thead>
                         <!--Load database tại đây-->
                         <tbody>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                          </tr>
+                          <%lichsu.forEach((ls)=>{%>
+
+                            <tr>
+                              <td><%=ls.idhd%></td>
+                              <td><%=ls.tendv%></td>
+                              <td><%=ls.tendn%></td>
+                              <td><%=ls.ngaylap%></td>
+                              <td><%=ls.tenkh%></td>
+                              <td><%=ls.sotien%> VND</td>
+                            </tr>
+                            <%})%>
                         </tbody>
                       </table>  
             </div>
@@ -179,9 +162,11 @@
                     <tr>
                           <table border="0" class="table table-striped" >
                                   <tr>
-                                      <Th>Số tiền đã nạp vào ví</Td><th> Số tiền đã chi</th>
-                                          <!--Xu lý tại đây-->
-                                       <tr><td></td></tr>   
+                                    <Th>Số tiền hiện có</Th><th>Số tiền đã nạp</th><th> Số tiền đã chi</th>
+                                    <!--Xu lý tại đây-->
+                                     
+                                   
+                                 <tr><td><%=sodu%> VND</td><td><%=sotiennap%> VND</td><td><%=thanhtoan%> VND</td></tr>   
                                   </tr>
                                 
                           </table> 

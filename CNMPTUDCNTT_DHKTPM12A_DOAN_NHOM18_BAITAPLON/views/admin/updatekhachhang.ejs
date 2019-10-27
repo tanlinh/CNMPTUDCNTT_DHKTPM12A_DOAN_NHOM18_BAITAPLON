@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <form action="/updatekhachhang" method="POST">
+    <h1><span style="color: blue;">Chỉnh sửa thông tin khách hàng</span><span style="color: chocolate;"> <label for="email"><input type="hidden" name="ten" value="<%=ten%>"><%=ten%></label></span></h1>
+    <input type="hidden" name="id" value="<%=id%>">
+    <div class="form-group">
+      <label for="pwd">Số điện thoại</label>
+      <input type="text" class="form-control" required pattern="^[0]\d{9}$" title="Bắt đầu là 0 và gồm 10 số " id="pwd" placeholder="Số điện thoại" name="sdt">
+    </div>
+    <div class="form-group">
+        <label for="pwd">CMND</label>
+        <input type="text" class="form-control"required="true" pattern="\d{9,11}" title="từ 9 đến 11 số" id="pwd" placeholder="CMND" name="cmnd">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Địa chỉ</label>
+        <input type="text" class="form-control" required id="pwd" placeholder="Địa chỉ" name="diachi">
+      </div>
+    <button type="submit" class="btn btn-primary" >Update</button>
+  </form>
+</div>
+
+</body>
+</html>
