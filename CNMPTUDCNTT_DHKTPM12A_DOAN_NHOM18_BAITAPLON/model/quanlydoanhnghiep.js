@@ -23,16 +23,17 @@ module.exports = class {
           })
           return result;
         };
+
           //tìm kiếm doanh nghiệp theo id
         static async searchdoanhnghiep(iddn) {
           let params = {
             TableName: 'khachhangdoanhnghiep',
-            KeyConditionExpression: '#i = :iddn',
+            KeyConditionExpression: ' #iddn = :iddn'  , 
             ExpressionAttributeNames : {
-              '#i': 'iddn'
+              '#iddn': 'iddn'
             },
             ExpressionAttributeValues : {
-              ':iddn': String(iddn)
+              ':iddn': iddn
             }
           };
       
@@ -89,7 +90,7 @@ module.exports = class {
           Key: {
             'iddn': iddn,
             'ten': ten
-          }
+          },
         }
         let result = {};
         await docClient.delete(params).promise()

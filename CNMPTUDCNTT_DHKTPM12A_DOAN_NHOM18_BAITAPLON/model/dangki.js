@@ -48,7 +48,7 @@ var dangki = {
                                     "iddn": id1,
                                     "matkhau": matkhau1,
                                     "ten": ten1,
-                                    "chucvu": 1,
+                                    "chucvu": 0,
                                     "diachi": diachi1,
                                     "email": email1,
                                     "sdt": sdt1,

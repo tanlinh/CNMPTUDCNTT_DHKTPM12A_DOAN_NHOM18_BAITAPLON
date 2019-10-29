@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Vấn tin số dư</title>
+    <title>Thanh Toán</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -72,6 +72,7 @@
                 <div class="col-md-4 ftco-animate py-5 nav-link-wrap">
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
+
                         <a class="nav-link px-6 active" id="v-pills-reception-tab"
                             href="#v-pills-buffet" role="tab" aria-controls="v-pills-reception"
                             aria-selected="false">Thanh toán</a>
@@ -86,54 +87,41 @@
                         <div class="tab-pane fade show active py-5" id="v-pills-buffet" role="tabpanel"
                             aria-labelledby="v-pills-buffet-tab">
                             <span class="icon mb-3 d-block flaticon-neurology"></span>
-                            <h2 class="mb-4" style="text-align: center">Thông tin hóa đơn</h2>
-                            <%dv.data.Items.forEach((dv)=>{%>
-                            <form action="/finishthanhtoan?iddv=<%=id%>&madn=<%=madn%>&makh=<%=makh%>&tendv=<%=dv.ten%>&mahd=<%=hd.id%>&sotien=<%=hd.sotien%>&idnd=<%=idnd%>&ten=<%=ten%>" method="POST">
-                                <table border="0" class="table table-striped">
-                                    <!-- <tr>
-                                        <Td>Nhà Cung cấp: </Td>
-                                        <td> <%=madn%></td>
+                            <h2 class="mb-4" style="text-align: center">Chọn hóa đơn thanh Toán</h2>
+                            <form action="/thanhtoannext" method="GET">
+                                <table border="0" class="table table-borderless">
+                                    <tr>
+                                        <input name="iddv" type="hidden" placeholder="Nhập mã khách hàng"
+                                            style="width:300px; height: 30px" value="<%=id%>">
+                                            <input name="idnd" type="hidden" placeholder="Nhập mã khách hàng"
+                                            style="width:300px; height: 30px" value="<%=idnd%>">
+                                            <input name="ten" type="hidden" placeholder="Nhập mã khách hàng"
+                                            style="width:300px; height: 30px" value="<%=ten%>">
+                                            <input name="doanhnghiep" type="hidden" placeholder="Nhập mã khách hàng"
+                                            style="width:300px; height: 30px" value="<%=madn%>">
+                                            <input name="makh" type="hidden" placeholder="Nhập mã khách hàng"
+                                            style="width:300px; height: 30px" value="<%=makh%>">
                                     </tr>
                                     <tr>
-                                        <Td>Mã khách hàng: </Td>
-                                        <td><%=makh%></td>
-                                    </tr>
-                                    <tr>
-                                        <Td>Mã </Td>
-                                        <td><%=id%></td>
-                                    </tr>
-                                    <tr>
-                                        <Td>Dịch Vụ </Td>
+                                        <td>Chọn hóa đơn</td>
+                                        <td>
+                                            <select style="width:300px; height: 30px" name="mahd">
+                                                <%hd.forEach((temp)=>{ %>
+                                                <option value="<%=temp.id%>"><%=temp.id%></option>
+                                                <%  })  %>
+                                            </select>
+                                        </td>
                                         
-                                            <td><%=dv.ten%></td>
-                                        
                                     </tr>
-                                    <tr>
-                                        <Td>Mã hóa đơn: </Td>
-                                        <td><%=hd.id%></td>
-                                    </tr>
-                                    <tr>
-                                        <Td>Số tiền: </Td>
-                                        <td><%=hd.sotien%> VND</td>
-                                    </tr>
-                                    </tr> -->
-                                    <tr>
-                                        <th>Nhà Cung cấp </th>
-                                        <th>Dịch vụ</th>
-                                        <th>Mã hóa đơn</th>
-                                        <th>Số tiền</th>
-                                    </tr>
-                                    <tr>
-                                        <td><%=makh%></td>
-                                        <td><%=id%></td>
-                                        <td><%=hd.id%></td>
-                                        <td><%=hd.sotien%> VND</td>
-                                    </tr>
+                                    
+                                       
+
                                 </table>
 
-                                <button style="text-align: right" class="btn btn-success" type="submit">Tiến thành thanh toán</button>
+                                <button style="text-align: right" class="btn btn-success" type="submit">Tiếp
+                                    tục</button>
                             </form>
-                            <%})%>
+
                         </div>
 
                         <div class="tab-pane fade py-5" id="v-pills-fitness" role="tabpanel"

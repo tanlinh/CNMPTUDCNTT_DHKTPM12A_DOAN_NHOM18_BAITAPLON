@@ -106,8 +106,8 @@
                     <div class="container-fluid">
                         <div class="header-wrap">
                            
-                            <form class="form-header" action="/search" method="get">
-                                <input class="au-input au-input--xl" type="text" name="email" placeholder="Nhập tên doanh nghiệp cần tìm " />
+                            <form class="form-header" action="/search" method="get" >
+                                <input required class="au-input au-input--xl" type="text" name="iddn" placeholder="Nhập mã doanh nghiệp cần tìm " />
                                 <button type="submit" class="form-control btn btn-primary">Tìm kiếm</button>
                             </form>
                            
@@ -147,7 +147,7 @@
                                 <th scope="col">Số Fax</th>
                                 <th scope="col">Email</th>
                                 <th scope="col">Địa chỉ</th>
-                                <th>Xem thông tin khách hàng</th>
+                                <th>Xem danh sách khách hàng</th>
                                 <th>Thao tác</th>
                                 <th>Thao tác</th>
                             </tr>
@@ -164,7 +164,8 @@
                                 <td><%=dn.fax%></td>
                                 <td><%=dn.email%></td>
                                 <td><%=dn.diachi%></td>
-                                <td><a href="./xemdanhsachkhachhang?iddn=<%=dn.iddn%>&ten=<%=dn.ten%>" class="loginhere-link">xem</a></td>
+                                
+                                <td><a href="/xemdanhsachkhachhang" class="loginhere-link">xem</a></td>
                                 <td><a href="./updatedoanhnghiep?iddn=<%=dn.iddn%>&ten=<%=dn.ten%>" class="loginhere-link">sửa</a></td>
                                 <td><a href="./deletedoanhnghiep?iddn=<%=dn.iddn%>&ten=<%=dn.ten%>" class="loginhere-link">xóa</a></td>
                             </tr>

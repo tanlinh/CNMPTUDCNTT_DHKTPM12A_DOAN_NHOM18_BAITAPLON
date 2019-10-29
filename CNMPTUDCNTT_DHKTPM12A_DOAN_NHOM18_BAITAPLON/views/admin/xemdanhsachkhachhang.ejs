@@ -8,7 +8,9 @@
     <meta name="description" content="au theme template">
     <meta name="author" content="Hau Nguyen">
     <meta name="keywords" content="au theme template">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <!-- Title Page-->
     <title>Xem danh sách khách hàng</title>
 <link href="css/theme2.css" rel="stylesheet" media="all">
@@ -26,21 +28,23 @@
                                     <th scope="col">Tên khách hàng</th>
                                     <th scope="col">Email</th>
                                     <th scope="col">Số điện thoại</th>
-                                    <th scope="col">Hóa đơn</th>
                         
                                 </tr>
                             </thead>
                             <!--Load database tại đây-->
                             <tbody>
+                                <% ds.forEach((kh) =>{ %>
+
                                <tr>
-                                   <td>aaaaa</td>
-                                   <td>aaaaa</td>
-                                   <td>aaaaa</td>
-                                   <td>aaaaa</td>
-                                   <td>aaaaa</td>
+                                   <td><%=kh.id%></td>
+                                   <td><%=kh.ten%></td>
+                                   <td><%=kh.email%></td>
+                                   <td><%=kh.sdt%></td>
                                </tr>
+                           <%  }) %>
                             </tbody>
                         </table>
+                        <a href="../admin1" class="btn btn-danger">Trở về</a>
                     </div>
                 </div>
     </html>

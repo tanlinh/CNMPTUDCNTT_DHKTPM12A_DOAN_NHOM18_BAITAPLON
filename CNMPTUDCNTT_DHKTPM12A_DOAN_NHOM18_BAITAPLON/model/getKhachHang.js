@@ -21,9 +21,10 @@ module.exports = class {
         };
         await docClient.query(params).promise().then((data) => {
             queryKhachHang.data = data;
-            //console.log(JSON.stringify(queryKhachHang));
+            console.log("aaaaaaaaaaaaaaaa" + JSON.stringify(queryKhachHang.data.Items));
         })
-        return queryKhachHang;
+
+        return JSON.stringify(queryKhachHang.data.Items);
     }
     static async getKhachHang() {
         let params = {
@@ -43,6 +44,7 @@ module.exports = class {
 
         }
         let queryKhachHang = {};
+
         params.ProjectionExpression = "lichsu";
         params.KeyConditionExpression = '#id = :id';
         params.ExpressionAttributeNames = {
@@ -54,22 +56,26 @@ module.exports = class {
         var tong = 0;
         await docClient.query(params).promise().then((data) => {
             queryKhachHang.data = data;
-            console.log(queryKhachHang.data.Items)
+            //console.log(JSON.stringify(queryKhachHang.data.Items))
             var lichsu = queryKhachHang.data.Items;
+            //console.log(lichsu);    
             var i = 0;
-            var temp = {};
+            let temp = {};
+            //console.log(lichsu);
             lichsu.forEach((ls) => {
                 //console.log(ls+"222222222222222222222222222222222222222")
                 temp = ls;
+                // console.log(ls.lichsu)
+                //console.log(temp)
             });
-           // console.log(temp);
+            //console.log(temp);
             temp.lichsu.forEach((temp) => {
-                console.log(temp);
+                //  console.log(temp);
                 i = i + 1;
                 tong = tong + Number.parseFloat(temp.sotien);
-                console.log("//");
+                // console.log("//");
             });
-            console.log(tong);
+            //console.log(tong);
         })
         return tong;
     }
@@ -114,11 +120,13 @@ module.exports = class {
         await docClient.query(params).promise().then((data) => {
             queryKhachHang.data = data;
             var lichsu = queryKhachHang.data.Items;
+            //console.log(JSON.stringify(lichsu));
             var i = 0;
             lichsu.forEach((ls) => {
+                //console.log(JSON.stringify(ls)+"//")
                 temp = ls;
             });
-
+            console.log(temp);
         })
         console.log(temp);
         return temp;
@@ -171,7 +179,7 @@ module.exports = class {
         });
         return sotiennap;
     }
-    static async thanhToan(idKH,iddv, tendv, sotien, idhd, iddn, idkhht) {
+    static async thanhToan(idKH, iddv, tendv, sotien, idhd, iddn, idkhht) {
         let dntemp = await doanhnghiep.getDoanhNghiepbyID(iddn);
         let tendntemp;
         dntemp.forEach((temp) => {
@@ -182,8 +190,11 @@ module.exports = class {
         let tendvtemp = '"tendv":' + '"' + tendv + '"';
         let kh = await this.getKhachHangById(idkhht);
         let tenKHHT;
-        kh.data.Items.forEach((kh) => {
-            tenKHHT = kh.ten;
+        console.log(JSON.parse(kh))
+        JSON.parse(kh).forEach((temp) => {
+            // console.log("KH"+kh)
+            tenKHHT = temp.ten;
+            //console.log(tenKHHT)
         })
         //lấy tên khách hàng trong chi tiết dịch vụ
         let tenkhtemp;
@@ -207,17 +218,20 @@ module.exports = class {
             });
         })
         console.log(tenkhtemp);
-       //------------------------------------------//s
+        //------------------------------------------//s
         let tenkh = '"tenkh":' + '"' + tenkhtemp + '"';
         let idhdtemp = '"idhd":' + '"' + idhd + '"';
         let ngaylap = '"ngaylap":' + '"' + n + '"';
         let tendn = '"tendn":' + '"' + tendntemp + '"';
         let sotientemp = '"sotien":' + sotien;
-        console.log(sotientemp)
+        //console.log(sotientemp)
         let lichsu = '{' + tendvtemp + ',' + idhdtemp + ',' + ngaylap + ',' + tendn + ',' + tenkh + ',' + sotientemp + '}'
         console.log(lichsu)
-        let lstemp = [JSON.parse(lichsu)];
-
+        let lstemp = [];
+        var obj = JSON.parse(lichsu);
+        console.log("aaaaa", obj)
+        lstemp.push(obj);
+        console.log("sdkbadasjkdjkasbjka:", lstemp);
         let params1 = {
             TableName: "KhachHang",
             Key: {
@@ -226,7 +240,7 @@ module.exports = class {
             },
             UpdateExpression: "SET lichsu = list_append(lichsu, :lichsu)",
             ExpressionAttributeValues: {
-                ":lichsu": lstemp
+                ":lichsu": JSON.parse(JSON.stringify(lstemp))
             },
             ReturnValues: "ALL_NEW"
         };

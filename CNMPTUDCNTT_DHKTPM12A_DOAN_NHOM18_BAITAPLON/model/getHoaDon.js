@@ -6,6 +6,47 @@ aws.config.update({
 let docClient = new aws.DynamoDB.DocumentClient();
 let doanhnghiep = require('../model/getDoanhNghiep');
 module.exports = class {
+    static async getHoaDonByKH(iddv, iddn, idkh) {
+        let params = {
+            TableName: "ChiTietDichVu"
+
+        }
+        let queryhd = {};
+        let querydoanhnghiep = {};
+        await docClient.scan(params).promise().then((data) => {
+            querydoanhnghiep.data = data;
+            var kh = {};
+            querydoanhnghiep.data.Items.forEach((ctdv) => {
+                if (ctdv.iddv === iddv && ctdv.iddn === iddn) {
+                    kh = ctdv.khachhang;
+                }
+            });
+            var lshd = {};
+            kh.forEach((kh) => {
+                if (String(kh.id) === String(idkh)) {
+                    lshd = kh.hoadon;
+                }
+            });
+
+            if (String(JSON.stringify(lshd)) === "{}") {
+                console.error("Không tìm thấy khách hàng");
+                queryhd = 1;
+            } else {
+
+                queryhd = lshd;
+                // if (String(JSON.stringify(hd)) === "{}") {
+                //     console.error("Không tìm thấy hóa đơn");
+                //     queryhd=2;
+                // } else if(Number(hd.trangthai)===0){
+                //     console.error("Hóa đơn này đã thanh toán");
+                //     queryhd=3;
+                // }else{
+                //     queryhd = hd;
+                // }
+            }
+        });
+        return queryhd;
+    }
     static async getHoaDon(iddv, iddn, idkh, idhd) {
         let params = {
             TableName: "ChiTietDichVu"
@@ -27,11 +68,11 @@ module.exports = class {
                     lshd = kh.hoadon;
                 }
             });
-           
-            if (String(JSON.stringify(lshd))==="{}") {
+
+            if (String(JSON.stringify(lshd)) === "{}") {
                 console.error("Không tìm thấy khách hàng");
-                queryhd=1;
-             } else {
+                queryhd = 1;
+            } else {
 
                 var hd = {};
                 lshd.forEach((temp) => {
@@ -41,11 +82,11 @@ module.exports = class {
                 })
                 if (String(JSON.stringify(hd)) === "{}") {
                     console.error("Không tìm thấy hóa đơn");
-                    queryhd=2;
-                } else if(Number(hd.trangthai)===0){
+                    queryhd = 2;
+                } else if (Number(hd.trangthai) === 0) {
                     console.error("Hóa đơn này đã thanh toán");
-                    queryhd=3;
-                }else{
+                    queryhd = 3;
+                } else {
                     queryhd = hd;
                 }
             }

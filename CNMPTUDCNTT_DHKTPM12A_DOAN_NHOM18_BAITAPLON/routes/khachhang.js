@@ -23,7 +23,9 @@ var router = express.Router();
     const sodu = await getKhachHang.getSoDuByID(id);
     const thanhtoan = await getKhachHang.getThanhToanById(id);
     const lichsu = await getKhachHang.getLichSuById(id);
+    console.log("lich su = "+JSON.stringify(lichsu));
     const sotiennap = await getKhachHang.getSoTienNapByID(id);
+    console.log("lich su = "+sotiennap);
     return res.render('naptien',{lichsu:lichsu.lichsu,sodu:sodu,thanhtoan:thanhtoan,dichvu:dichvu.data.Items,sotiennap:sotiennap,ten:ten,id:id});
   });
   router.get('/savenaptien', async (req, res) => {

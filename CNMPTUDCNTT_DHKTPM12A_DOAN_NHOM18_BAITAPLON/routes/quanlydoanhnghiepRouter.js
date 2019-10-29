@@ -11,6 +11,7 @@ router.get('/admin1', async (req, res) => {
   //controller tim kiem
   router.get('/search', async (req, res) => {
     const iddn = req.query.iddn;
+    const ten = req.query.ten;
     const qldn = await quanlydoanhnghiep.searchdoanhnghiep(iddn);
     if (qldn.err) {
       res.end("error: Nothing to show...");
@@ -18,7 +19,6 @@ router.get('/admin1', async (req, res) => {
       return;
     }
     return res.render('admin/indexAdmin1',{
-
       "qldn": qldn.data.Items,
       "iddn": iddn
     }
@@ -69,9 +69,24 @@ router.get('/admin1', async (req, res) => {
   })
 
   router.get('/xemdanhsachkhachhang', async(req, res) =>{
-       const iddn = req.body.iddn;
-      const danhsachkhachhangdoanhnghiep = danhsachkhachhang.danhsachkh(iddn);
-    return res.render('admin/xemdanhsachkhachhang',{"DS":danhsachkhachhangdoanhnghiep.data});
+    const iddn = req.body.iddn;
+      const dskh = await danhsachkhachhang.getDSKhachHangByDV("DV001","DN005");
+        return res.render('admin/xemdanhsachkhachhang',{"ds":dskh});
   })
+
+//   router.get('/xemdanhsachkhachhang', async(req, res) => {
+//     const dskhtheoDv = await quanlykhachhang.getDSKhachHangByDV("DV001", "DN001");
+//     // var dskhdv = {};
+
+//     // dskhtheoDv.data.Items.forEach((temp) => {
+//     //     dskhdv = temp.khachhang;
+//     //     if (dskhtheoDv.data.Items != null)
+//     //         console.log("nulll");
+//     //     // console.log(dskhtheoDv.data.Item.console);
+//     // })
+//     // console.log(dskhtheoDv + "\n");
+//     return res.render('doanhnghiep/quanlykhachhangdn', { "dskhdv": dskhtheoDv });
+// });
+
 
 module.exports = router;

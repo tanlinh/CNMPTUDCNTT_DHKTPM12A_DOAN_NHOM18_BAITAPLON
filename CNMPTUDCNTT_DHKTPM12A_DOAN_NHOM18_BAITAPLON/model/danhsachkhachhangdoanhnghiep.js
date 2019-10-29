@@ -1,40 +1,29 @@
-const aws = require('aws-sdk');
-const doanhnghiep = require('../model/getDoanhNghiep');
-aws.config.update({
+const AWS = require('aws-sdk');
+
+AWS.config.update({
     region: "us-west-2",
     endpoint: "http://localhost:8000"
 });
-let docClient = new aws.DynamoDB.DocumentClient();
-module.exports = class {
 
-    static async danhsachkh(id,iddv) {
+const docClient = new AWS.DynamoDB.DocumentClient();
+//lấy thông tin khách hàng theo chitietdichvu
+module.exports = class {
+    static async getDSKhachHangByDV(iddv, iddn) {
         let params = {
             TableName: "ChiTietDichVu"
         }
-        let queryKhachHang = {};
-        params.ProjectionExpression = "ChiTietDichVu";
-        params.KeyConditionExpression = '#id = :id','#iddv = :iddv';
-        params.ExpressionAttributeNames = {
-            '#id': 'id',
-            '#iddv': 'iddv'
-        };
-        params.ExpressionAttributeValues = {
-            ':id': id,
-            ':iddv': iddv
-        };
-        var temp = {};
-        await docClient.query(params).promise().then((data) => {
-            queryKhachHang.data = data;
-            var lichsu = queryKhachHang.data.Items;
-            var i = 0;
-            lichsu.forEach((ls) => {
-                temp = ls;
-            });
-
+        let queryCTDichVu = {}
+        let listkh = {};
+        await docClient.scan(params).promise().then((data) => {
+            queryCTDichVu.data = data;
+            console.log(JSON.stringify(queryCTDichVu.data.Items));
         })
-        console.log(temp);
-        return temp;
+        queryCTDichVu.data.Items.forEach((temp) => {
+                if (temp.iddv === iddv && temp.iddn === iddn) {
+                    listkh = temp.khachhang
+                }
+            })
+        return listkh;
     }
-
 
 }

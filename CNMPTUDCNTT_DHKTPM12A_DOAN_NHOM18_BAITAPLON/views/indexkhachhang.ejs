@@ -104,7 +104,7 @@
     			<div class="col-md-12">
     				<div class="category-wrap">
     					<div class="row no-gutters">
-    						<div class="col-md-2">
+    						<div class="col-md-3">
     							<div class="top-category text-center no-border-left">
                     <%  KH.forEach((khachhang) => {  %>
                     <h3><a href="../naptien?id=<%=khachhang.id%>&ten=<%=khachhang.ten%>">Nạp tiền</a></h3>
@@ -115,30 +115,29 @@
     						</div>
     						<div class="col-md-3">
     							<div class="top-category text-center ">
-    								<h3><a href="../thanhtoan">Thanh toán</a></h3>
+                    <%  KH.forEach((khachhang) => {  %>
+                      <h3><a href="../naptien?id=<%=khachhang.id%>&ten=<%=khachhang.ten%>">Thanh toán</a></h3>
+                      <%   })  %> 
     								<span class="icon flaticon-mortarboard"></span>
     								
     							</div>
     						</div>
-    						<div class="col-md-2">
+    						<div class="col-md-3">
     							<div class="top-category text-center">
-    								<h3><a href="../lichsugiaodich">Lịch sử giao dịch</a></h3>
+                    <%  KH.forEach((khachhang) => {  %>
+                      <h3><a href="../naptien?id=<%=khachhang.id%>&ten=<%=khachhang.ten%>">Lịch sử giao dịch</a></h3>
+                      <%   })  %> 
     								<span class="icon flaticon-idea"></span>
     							
     							</div>
     						</div>
-    						<div class="col-md-2">
-    							<div class="top-category text-center">
-    								<h3><a href="../dangkiSNS">Đăng ký SNS</a></h3>
-    								<span class="icon flaticon-accounting"></span>
-    						
-    							</div>
-    						</div>
     						<div class="col-md-3">
     							<div class="top-category text-center">
-    								<h3><a href="../vantinsodu">Vấn tin số dư</a></h3>
-    								<span class="icon flaticon-accounting"></span>
-    								
+                    <%  KH.forEach((khachhang) => {  %>
+                      <h3><a href="../naptien?id=<%=khachhang.id%>&ten=<%=khachhang.ten%>">Vấn tin số dư</a></h3>
+                      <%   })  %> 
+                      <span class="icon flaticon-idea"></span>
+    							
     							</div>
     						</div>
     					</div>
